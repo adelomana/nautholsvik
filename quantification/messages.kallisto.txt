@@ -1,0 +1,15 @@
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 188,753
+[index] number of k-mers: 109,544,288
+[index] number of equivalence classes: 760,757
+[quant] running in paired-end mode
+[quant] will process pair 1: /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_1/WT_with_IFN_1_R1_clean.fastq.gz
+                             /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_1/WT_with_IFN_1_R2_clean.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] learning parameters for sequence specific bias
+[quant] processed 130,967,601 reads, 116,270,207 reads pseudoaligned
+[quant] estimated average fragment length: 269.583
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 2,986 rounds

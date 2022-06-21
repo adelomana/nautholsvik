@@ -1,0 +1,307 @@
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_393_293.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_393_293.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_1/WT_with_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_1/WT_with_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_1/WT_with_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_1/WT_with_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 134785666 Both Surviving: 130967601 (97.17%) Forward Only Surviving: 3070395 (2.28%) Reverse Only Surviving: 512855 (0.38%) Dropped: 234815 (0.17%)
+TrimmomaticPE: Completed successfully
+5625.18user 46.13system 29:33.99elapsed 319%CPU (0avgtext+0avgdata 2166044maxresident)k
+25727048inputs+28909648outputs (256major+558227minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_346_246.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_346_246.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_2/WT_with_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_2/WT_with_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_2/WT_with_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_2/WT_with_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 141089271 Both Surviving: 137913177 (97.75%) Forward Only Surviving: 2562137 (1.82%) Reverse Only Surviving: 428317 (0.30%) Dropped: 185640 (0.13%)
+TrimmomaticPE: Completed successfully
+5958.40user 48.53system 30:14.87elapsed 330%CPU (0avgtext+0avgdata 2166080maxresident)k
+33839320inputs+29500424outputs (292major+548325minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_394_294.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_394_294.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_3/WT_with_IFN_3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_3/WT_with_IFN_3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_3/WT_with_IFN_3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_3/WT_with_IFN_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 134977976 Both Surviving: 131011672 (97.06%) Forward Only Surviving: 3181252 (2.36%) Reverse Only Surviving: 539604 (0.40%) Dropped: 245448 (0.18%)
+TrimmomaticPE: Completed successfully
+5742.29user 47.42system 29:21.53elapsed 328%CPU (0avgtext+0avgdata 1908276maxresident)k
+32956272inputs+28645112outputs (293major+485892minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_385_285.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_385_285.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_1/WT_wo_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_1/WT_wo_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_1/WT_wo_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_1/WT_wo_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 137210419 Both Surviving: 133301041 (97.15%) Forward Only Surviving: 3142504 (2.29%) Reverse Only Surviving: 534769 (0.39%) Dropped: 232105 (0.17%)
+TrimmomaticPE: Completed successfully
+5655.65user 46.96system 29:25.76elapsed 322%CPU (0avgtext+0avgdata 2274240maxresident)k
+33698224inputs+29373648outputs (244major+584502minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_338_238.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_338_238.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_2/WT_wo_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_2/WT_wo_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_2/WT_wo_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_2/WT_wo_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 59072746 Both Surviving: 57618228 (97.54%) Forward Only Surviving: 1211907 (2.05%) Reverse Only Surviving: 170454 (0.29%) Dropped: 72157 (0.12%)
+TrimmomaticPE: Completed successfully
+2420.77user 19.55system 12:32.36elapsed 324%CPU (0avgtext+0avgdata 2316656maxresident)k
+14423256inputs+12259568outputs (144major+582118minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_386_286.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_386_286.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_3/WT_wo_IFN_3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_3/WT_wo_IFN_3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_3/WT_wo_IFN_3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_3/WT_wo_IFN_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 135018999 Both Surviving: 130831913 (96.90%) Forward Only Surviving: 3356909 (2.49%) Reverse Only Surviving: 558648 (0.41%) Dropped: 271529 (0.20%)
+TrimmomaticPE: Completed successfully
+5550.37user 46.12system 29:18.20elapsed 318%CPU (0avgtext+0avgdata 2494616maxresident)k
+33360568inputs+28962104outputs (244major+639560minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_315_215.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_315_215.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN3/siCTRL_with_IFN3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN3/siCTRL_with_IFN3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN3/siCTRL_with_IFN3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN3/siCTRL_with_IFN3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 135886048 Both Surviving: 130919512 (96.35%) Forward Only Surviving: 4367541 (3.21%) Reverse Only Surviving: 372790 (0.27%) Dropped: 226205 (0.17%)
+TrimmomaticPE: Completed successfully
+5836.85user 46.59system 30:37.79elapsed 320%CPU (0avgtext+0avgdata 1813784maxresident)k
+33951880inputs+29309848outputs (258major+471257minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_314_214.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_314_214.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_1/siCTRL_with_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_1/siCTRL_with_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_1/siCTRL_with_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_1/siCTRL_with_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 136682062 Both Surviving: 133208327 (97.46%) Forward Only Surviving: 2868367 (2.10%) Reverse Only Surviving: 424229 (0.31%) Dropped: 181139 (0.13%)
+TrimmomaticPE: Completed successfully
+5480.84user 44.56system 28:38.74elapsed 321%CPU (0avgtext+0avgdata 2654416maxresident)k
+32898144inputs+28503360outputs (272major+688784minor)pagefaults 0swaps
+['WT_with_IFN_1', 'WT_with_IFN_2', 'WT_with_IFN_3', 'WT_wo_IFN_1', 'WT_wo_IFN_2', 'WT_wo_IFN_3', 'siCTRL_with_IFN3', 'siCTRL_with_IFN_1', 'siCTRL_with_IFN_2', 'siCTRL_wo_IFN3', 'siCTRL_wo_IFN_1', 'siCTRL_wo_IFN_2', 'siMITF_with_IFN_1', 'siMITF_with_IFN_2', 'siMITF_with_IFN_3', 'siMITF_wo_IFN_1', 'siMITF_wo_IFN_2', 'siMITF_wo_IFN_3'] 18
+2022-06-20 13:10:00 	 about to clean WT_with_IFN_1
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_393_293.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_393_293.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_1/WT_with_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_1/WT_with_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_1/WT_with_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_1/WT_with_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 13:39:34 	 about to clean WT_with_IFN_2
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_346_246.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_346_246.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_2/WT_with_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_2/WT_with_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_2/WT_with_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_2/WT_with_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 14:09:49 	 about to clean WT_with_IFN_3
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_394_294.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_with_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_394_294.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_3/WT_with_IFN_3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_3/WT_with_IFN_3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_3/WT_with_IFN_3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_with_IFN_3/WT_with_IFN_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 14:39:10 	 about to clean WT_wo_IFN_1
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_385_285.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_385_285.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_1/WT_wo_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_1/WT_wo_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_1/WT_wo_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_1/WT_wo_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 15:08:36 	 about to clean WT_wo_IFN_2
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_338_238.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_338_238.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_2/WT_wo_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_2/WT_wo_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_2/WT_wo_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_2/WT_wo_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 15:21:08 	 about to clean WT_wo_IFN_3
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_386_286.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/WT_wo_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_386_286.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_3/WT_wo_IFN_3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_3/WT_wo_IFN_3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_3/WT_wo_IFN_3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/WT_wo_IFN_3/WT_wo_IFN_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 15:50:27 	 about to clean siCTRL_with_IFN3
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_315_215.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_315_215.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN3/siCTRL_with_IFN3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN3/siCTRL_with_IFN3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN3/siCTRL_with_IFN3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN3/siCTRL_with_IFN3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 16:21:04 	 about to clean siCTRL_with_IFN_1
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_314_214.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_314_214.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_1/siCTRL_with_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_1/siCTRL_with_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_1/siCTRL_with_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_1/siCTRL_with_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 16:49:43 	 about to clean siCTRL_with_IFN_2
+
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_362_262.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_362_262.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_2/siCTRL_with_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_2/siCTRL_with_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_2/siCTRL_with_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_2/siCTRL_with_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 148616692 Both Surviving: 144535743 (97.25%) Forward Only Surviving: 3370746 (2.27%) Reverse Only Surviving: 482168 (0.32%) Dropped: 228035 (0.15%)
+TrimmomaticPE: Completed successfully
+6216.94user 49.87system 31:53.56elapsed 327%CPU (0avgtext+0avgdata 1882748maxresident)k
+35790008inputs+31136056outputs (263major+490917minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_307_207.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_307_207.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN3/siCTRL_wo_IFN3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN3/siCTRL_wo_IFN3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN3/siCTRL_wo_IFN3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN3/siCTRL_wo_IFN3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 135038040 Both Surviving: 132006533 (97.76%) Forward Only Surviving: 2441669 (1.81%) Reverse Only Surviving: 424234 (0.31%) Dropped: 165604 (0.12%)
+TrimmomaticPE: Completed successfully
+5481.71user 45.02system 28:27.91elapsed 323%CPU (0avgtext+0avgdata 1960156maxresident)k
+32453304inputs+28297304outputs (264major+499557minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_306_206.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_306_206.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_1/siCTRL_wo_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_1/siCTRL_wo_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_1/siCTRL_wo_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_1/siCTRL_wo_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 154059102 Both Surviving: 150092738 (97.43%) Forward Only Surviving: 3293156 (2.14%) Reverse Only Surviving: 474496 (0.31%) Dropped: 198712 (0.13%)
+TrimmomaticPE: Completed successfully
+6427.99user 51.49system 32:20.87elapsed 333%CPU (0avgtext+0avgdata 2145752maxresident)k
+36938376inputs+32193896outputs (274major+561378minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_354_254.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_354_254.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_2/siCTRL_wo_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_2/siCTRL_wo_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_2/siCTRL_wo_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_2/siCTRL_wo_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 78554648 Both Surviving: 76066766 (96.83%) Forward Only Surviving: 2145758 (2.73%) Reverse Only Surviving: 238460 (0.30%) Dropped: 103664 (0.13%)
+TrimmomaticPE: Completed successfully
+3254.13user 26.04system 16:30.71elapsed 331%CPU (0avgtext+0avgdata 2375996maxresident)k
+19258864inputs+16513936outputs (172major+614523minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_330_230.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_330_230.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_1/siMITF_with_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_1/siMITF_with_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_1/siMITF_with_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_1/siMITF_with_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 138683183 Both Surviving: 134735032 (97.15%) Forward Only Surviving: 3387597 (2.44%) Reverse Only Surviving: 407845 (0.29%) Dropped: 152709 (0.11%)
+TrimmomaticPE: Completed successfully
+5836.25user 46.99system 30:14.93elapsed 324%CPU (0avgtext+0avgdata 2268188maxresident)k
+33844816inputs+29401848outputs (256major+576736minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_378_278.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_378_278.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_2/siMITF_with_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_2/siMITF_with_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_2/siMITF_with_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_2/siMITF_with_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 30412735 Both Surviving: 29538058 (97.12%) Forward Only Surviving: 709342 (2.33%) Reverse Only Surviving: 116973 (0.38%) Dropped: 48362 (0.16%)
+TrimmomaticPE: Completed successfully
+1272.23user 10.67system 6:24.03elapsed 334%CPU (0avgtext+0avgdata 1881512maxresident)k
+7545944inputs+6390096outputs (60major+485124minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_331_231.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_331_231.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_3/siMITF_with_IFN_3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_3/siMITF_with_IFN_3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_3/siMITF_with_IFN_3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_3/siMITF_with_IFN_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 131371321 Both Surviving: 128505847 (97.82%) Forward Only Surviving: 2310357 (1.76%) Reverse Only Surviving: 396390 (0.30%) Dropped: 158727 (0.12%)
+TrimmomaticPE: Completed successfully
+5425.81user 44.56system 27:40.10elapsed 329%CPU (0avgtext+0avgdata 1962004maxresident)k
+31502784inputs+27451808outputs (260major+498832minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_322_222.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_322_222.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_1/siMITF_wo_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_1/siMITF_wo_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_1/siMITF_wo_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_1/siMITF_wo_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 122315537 Both Surviving: 118415622 (96.81%) Forward Only Surviving: 3304772 (2.70%) Reverse Only Surviving: 398197 (0.33%) Dropped: 196946 (0.16%)
+TrimmomaticPE: Completed successfully
+4872.26user 41.55system 25:47.27elapsed 317%CPU (0avgtext+0avgdata 2191912maxresident)k
+29464776inputs+25469160outputs (212major+572121minor)pagefaults 0swaps
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_362_262.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_362_262.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_2/siCTRL_with_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_2/siCTRL_with_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_2/siCTRL_with_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_with_IFN_2/siCTRL_with_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 17:21:37 	 about to clean siCTRL_wo_IFN3
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_307_207.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_307_207.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN3/siCTRL_wo_IFN3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN3/siCTRL_wo_IFN3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN3/siCTRL_wo_IFN3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN3/siCTRL_wo_IFN3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 17:50:05 	 about to clean siCTRL_wo_IFN_1
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_306_206.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_306_206.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_1/siCTRL_wo_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_1/siCTRL_wo_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_1/siCTRL_wo_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_1/siCTRL_wo_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 18:22:26 	 about to clean siCTRL_wo_IFN_2
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_354_254.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siCTRL_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_354_254.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_2/siCTRL_wo_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_2/siCTRL_wo_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_2/siCTRL_wo_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siCTRL_wo_IFN_2/siCTRL_wo_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 18:38:56 	 about to clean siMITF_with_IFN_1
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_330_230.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_330_230.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_1/siMITF_with_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_1/siMITF_with_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_1/siMITF_with_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_1/siMITF_with_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 19:09:11 	 about to clean siMITF_with_IFN_2
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_378_278.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_4_378_278.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_2/siMITF_with_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_2/siMITF_with_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_2/siMITF_with_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_2/siMITF_with_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 19:15:35 	 about to clean siMITF_with_IFN_3
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_331_231.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_with_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_2_331_231.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_3/siMITF_with_IFN_3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_3/siMITF_with_IFN_3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_3/siMITF_with_IFN_3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_with_IFN_3/siMITF_with_IFN_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 19:43:15 	 about to clean siMITF_wo_IFN_1
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_322_222.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_1/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_322_222.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_1/siMITF_wo_IFN_1_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_1/siMITF_wo_IFN_1_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_1/siMITF_wo_IFN_1_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_1/siMITF_wo_IFN_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 20:09:03 	 about to clean siMITF_wo_IFN_2
+
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_370_270.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_370_270.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_2/siMITF_wo_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_2/siMITF_wo_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_2/siMITF_wo_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_2/siMITF_wo_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 134830195 Both Surviving: 131213368 (97.32%) Forward Only Surviving: 2977551 (2.21%) Reverse Only Surviving: 443946 (0.33%) Dropped: 195330 (0.14%)
+TrimmomaticPE: Completed successfully
+5598.73user 45.20system 28:49.56elapsed 326%CPU (0avgtext+0avgdata 2261236maxresident)k
+32440488inputs+28196344outputs (242major+573342minor)pagefaults 0swaps
+TrimmomaticPE: Started with arguments:
+ -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_323_223.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_323_223.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_3/siMITF_wo_IFN_3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_3/siMITF_wo_IFN_3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_3/siMITF_wo_IFN_3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_3/siMITF_wo_IFN_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 134689571 Both Surviving: 131383706 (97.55%) Forward Only Surviving: 2719611 (2.02%) Reverse Only Surviving: 417217 (0.31%) Dropped: 169037 (0.13%)
+TrimmomaticPE: Completed successfully
+5425.11user 44.19system 28:52.03elapsed 315%CPU (0avgtext+0avgdata 2454516maxresident)k
+32536688inputs+28356272outputs (236major+632957minor)pagefaults 0swaps
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_370_270.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_2/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_3_370_270.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_2/siMITF_wo_IFN_2_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_2/siMITF_wo_IFN_2_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_2/siMITF_wo_IFN_2_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_2/siMITF_wo_IFN_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-06-20 20:37:52 	 about to clean siMITF_wo_IFN_3
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_323_223.001.R1.fastq.gz /home/adrian/projects/nautholsvik/data/decode_220406/siMITF_wo_IFN_3/novaseq17_220401_A00798_0667_AHFGNMDSX2.s_1_323_223.001.R2.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_3/siMITF_wo_IFN_3_R1_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_3/siMITF_wo_IFN_3_R1_garbage.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_3/siMITF_wo_IFN_3_R2_clean.fastq.gz /home/adrian/projects/nautholsvik/data/clean_fastq/siMITF_wo_IFN_3/siMITF_wo_IFN_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
