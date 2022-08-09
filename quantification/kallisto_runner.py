@@ -52,7 +52,7 @@ transcriptome_index = '/home/adrian/software/kallisto/ensembl_v96/hsa/transcript
 
 strand_flag = '--rf-stranded'       # [quant] processed 130,967,601 reads, 58,495,796 reads pseudoaligned
 strand_flag = '--fr-stranded'       # [quant] processed 130,967,601 reads, 57,583,752 reads pseudoaligned
-strand_flag = ''                    # [quant] processed 130,967,601 reads, 57,583,752 reads pseudoaligned
+strand_flag = ''                    # [quant] processed 130,967,601 reads, 116,270,207 reads pseudoaligned
 
 #
 # 1. recover labels
