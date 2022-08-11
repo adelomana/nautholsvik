@@ -78,64 +78,58 @@ toc()
 cat(blue('building models...'), fill=TRUE)
 tic()
 so = sleuth_fit(so, ~genotype + treatment + genotype:treatment, 'interaction')
-so = sleuth_fit(so, ~genotype + treatment, 'full')
-so = sleuth_fit(so, ~genotype, 'treatment')
-so = sleuth_fit(so, ~treatment, 'genotype')
-#so = sleuth_fit(so, ~1, 'reduced')
+so = sleuth_fit(so, ~genotype + treatment, 'fullgt')
+so = sleuth_fit(so, ~treatment + genotype, 'fulltg')
+so = sleuth_fit(so, ~genotype, 'genotype')
+so = sleuth_fit(so, ~treatment, 'treatment')
+so = sleuth_fit(so, ~1, 'reduced')
 toc()
 
-# 3.4.1. statistical test about the effect of IFN
+# 3.4.1. statistical test about the effect of IFN only
 cat(blue('LRT testing...'), fill=TRUE)
-lrt = sleuth_lrt(so, 'treatment', 'full')
-lrt_table = sleuth_results(lrt, 'treatment:full', 'lrt', show_all=FALSE)
+lrt = sleuth_lrt(so, 'reduced', 'treatment')
+lrt_table = sleuth_results(lrt, 'reduced:treatment', 'lrt', show_all=FALSE)
 lrt_table = dplyr::filter(lrt_table, qval <= 0.05)
 print(dim(lrt_table))
-head(lrt_table, 10)
-
+head(lrt_table, 5)
+write.csv(lrt_table, file.path(results_dir, paste('treatment_only', 'csv', sep='.')))
 plot_bootstrap(so, lrt_table$target_id[1], units="tpm", color_by = "treatment")
-plot_bootstrap(so, lrt_table$target_id[2], units="tpm", color_by = "treatment")
-plot_bootstrap(so, lrt_table$target_id[3], units="tpm", color_by = "treatment")
-plot_bootstrap(so, lrt_table$target_id[dim(lrt_table)[1]/2], units="tpm", color_by = "treatment")
-plot_bootstrap(so, lrt_table$target_id[dim(lrt_table)[1]], units="tpm", color_by = "treatment")
 
-cat(blue('storing...'), fill=TRUE)
-write.csv(lrt_table, file.path(results_dir, paste('IFN_response_gene', 'csv', sep='.')))
-
-# 3.4.2. determine genes responding to siMITF
+# 3.4.2. statistical test about the effect of siMITF only
 cat(blue('LRT testing...'), fill=TRUE)
-lrt = sleuth_lrt(so, 'genotype', 'full')
-lrt_table = sleuth_results(lrt, 'genotype:full', 'lrt', show_all=FALSE)
+lrt = sleuth_lrt(so, 'reduced', 'genotype')
+lrt_table = sleuth_results(lrt, 'reduced:genotype', 'lrt', show_all=FALSE)
+lrt_table = dplyr::filter(lrt_table, qval <= 0.05)
+print(dim(lrt_table))
+head(lrt_table, 5)
+write.csv(lrt_table, file.path(results_dir, paste('genotype_only', 'csv', sep='.')))
+plot_bootstrap(so, lrt_table$target_id[1], units="tpm", color_by = "treatment")
+
+# 3.4.3. statistical tests about the effect of both better than one
+cat(blue('LRT testing...'), fill=TRUE)
+lrt = sleuth_lrt(so, 'genotype', 'fullgt')
+lrt_table = sleuth_results(lrt, 'genotype:fullgt', 'lrt', show_all=FALSE)
 lrt_table = dplyr::filter(lrt_table, qval <= 0.05)
 print(dim(lrt_table))
 head(lrt_table, 10)
+write.csv(lrt_table, file.path(results_dir, paste('full_better_than_treatment_only', 'csv', sep='.')))
+plot_bootstrap(so, lrt_table$target_id[1], units="tpm", color_by = "treatment")
 
-plot_bootstrap(so, lrt_table$target_id[1], units="tpm", color_by = "genotype")
-plot_bootstrap(so, lrt_table$target_id[2], units="tpm", color_by = "genotype")
-plot_bootstrap(so, lrt_table$target_id[3], units="tpm", color_by = "genotype")
-plot_bootstrap(so, lrt_table$target_id[dim(lrt_table)[1]/2], units="tpm", color_by = "genotype")
-plot_bootstrap(so, lrt_table$target_id[dim(lrt_table)[1]], units="tpm", color_by = "genotype")
-plot_bootstrap(so, 'ENSG00000187098', units="tpm", color_by = "genotype") # MITF
-
-cat(blue('storing...'), fill=TRUE)
-write.csv(lrt_table, file.path(results_dir, paste('siMITF_response_gene', 'csv', sep='.')))
-
-# 3.4.3. determine genes responding non-linearly
 cat(blue('LRT testing...'), fill=TRUE)
-lrt = sleuth_lrt(so, 'full', 'interaction')
-lrt_table = sleuth_results(lrt, 'full:interaction', 'lrt', show_all=FALSE)
+lrt = sleuth_lrt(so, 'treatment', 'fulltg')
+lrt_table = sleuth_results(lrt, 'treatment:fulltg', 'lrt', show_all=FALSE)
 lrt_table = dplyr::filter(lrt_table, qval <= 0.05)
 print(dim(lrt_table))
 head(lrt_table, 10)
+write.csv(lrt_table, file.path(results_dir, paste('full_better_than_genotype_only', 'csv', sep='.')))
+plot_bootstrap(so, lrt_table$target_id[5], units="tpm", color_by = "treatment")
 
-plot_bootstrap(so, lrt_table$target_id[1], units="tpm", color_by = "genotype")
-plot_bootstrap(so, lrt_table$target_id[2], units="tpm", color_by = "genotype")
-plot_bootstrap(so, lrt_table$target_id[3], units="tpm", color_by = "genotype")
-plot_bootstrap(so, lrt_table$target_id[dim(lrt_table)[1]/2], units="tpm", color_by = "genotype")
-plot_bootstrap(so, lrt_table$target_id[dim(lrt_table)[1]], units="tpm", color_by = "genotype")
-plot_bootstrap(so, 'ENSG00000120217', units="tpm", color_by = "genotype") # PD-L1
-
-cat(blue('storing...'), fill=TRUE)
-write.csv(lrt_table, file.path(results_dir, paste('interaction_response_gene', 'csv', sep='.')))
-
-
-
+# 3.4.4. determine genes responding non-linearly
+cat(blue('LRT testing...'), fill=TRUE)
+lrt = sleuth_lrt(so, 'fullgt', 'interaction')
+lrt_table = sleuth_results(lrt, 'fullgt:interaction', 'lrt', show_all=FALSE)
+lrt_table = dplyr::filter(lrt_table, qval <= 0.05)
+print(dim(lrt_table))
+head(lrt_table, 10)
+write.csv(lrt_table, file.path(results_dir, paste('interaction_better_than_full', 'csv', sep='.')))
+plot_bootstrap(so, lrt_table$target_id[5], units="tpm", color_by = "genotype")
