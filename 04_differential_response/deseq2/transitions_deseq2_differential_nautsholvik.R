@@ -1,13 +1,14 @@
 #
 # -1. packages installation
 #
-# if (!require("BiocManager", quietly = TRUE))
-#   install.packages("BiocManager")
-# BiocManager::install()
-# 
-# setRepositories(ind=c(1:6))
-# 
-# BiocManager::install("biomaRt")
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install()
+
+setRepositories(ind=c(1:6))
+
+BiocManager::install("biomaRt")
+BiocManager::install("tximport")
 
 library(biomaRt)
 library(tximport)
@@ -125,4 +126,11 @@ filt1 = res[which(res$pvalue < 0.05), ]
 filt2 = filt1[which(filt1$padj < 0.1), ]
 cat(blue(paste('DEGs found for A0 to B0 transition:', dim(filt2)[1], sep=' ')), fill=TRUE)
 write.table(filt2, file=paste(results_dir, '/A0_B0_transition.tsv', sep=''), quote=FALSE, sep='\t')
+
+#
+# 3.3. call significance on A0 --> B1
+#
+rules = metadata$genotype != 'wt' & metadata$treatment == 'control'
+working_metadata = metadata[rules, ]
+View(working_metadata)
 

@@ -8,3 +8,5 @@ visualization/.ipynb_checkpoints/
 03_visualization/.ipynb_checkpoints/
 
 04_differential_response/deseq2/.ipynb_checkpoints/
+
+*.svg
