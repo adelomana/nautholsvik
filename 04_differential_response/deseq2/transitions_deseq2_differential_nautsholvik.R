@@ -1,14 +1,16 @@
 #
 # -1. packages installation
 #
-if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-BiocManager::install()
-
-setRepositories(ind=c(1:6))
-
-BiocManager::install("biomaRt")
-BiocManager::install("tximport")
+# if (!require("BiocManager", quietly = TRUE))
+#   install.packages("BiocManager")
+# BiocManager::install()
+# 
+# setRepositories(ind=c(1:6))
+# 
+# BiocManager::install("biomaRt")
+# BiocManager::install("tximport")
+# BiocManager::install("DESeq2")
+# BiocManager::install('rhdf5')
 
 library(biomaRt)
 library(tximport)
@@ -32,7 +34,7 @@ threshold = 10
 # 1. generate gene to transcript mapping
 #
 # annotation defined from sleuth walk through, https://pachterlab.github.io/sleuth_walkthroughs/trapnell/analysis.html
-mart = biomaRt::useMart(biomart="ENSEMBL_MART_ENSEMBL", dataset="hsapiens_gene_ensembl", host='https://uswest.ensembl.org')
+mart = biomaRt::useEnsembl(biomart="ENSEMBL_MART_ENSEMBL", dataset="hsapiens_gene_ensembl", version=96)
 t2g = biomaRt::getBM(attributes=c("ensembl_transcript_id", "ensembl_gene_id", "external_gene_name"), mart=mart)
 t2g = dplyr::rename(t2g, target_id=ensembl_transcript_id, ens_gene=ensembl_gene_id, ext_gene=external_gene_name)
 
@@ -47,7 +49,7 @@ View(metadata)
 #
 
 #
-# 3.1. call significance on A0 --> A1
+# 3.1. call significance on A0 --> A1 [IFN vs control]
 #
 rules = metadata$genotype == 'control'
 working_metadata = metadata[rules, ]
@@ -74,34 +76,7 @@ cat(blue(paste('DEGs found for A0 to A1 transition:', dim(filt2)[1], sep=' ')), 
 write.table(filt2, file=paste(results_dir, '/A0_A1_transition.tsv', sep=''), quote=FALSE, sep='\t')
 
 #
-# 3.2. call significance on B0 --> B1 # this may not be needed for non-additive effects quantification
-#
-# rules = metadata$genotype == 'ko'
-# working_metadata = metadata[rules, ]
-# View(working_metadata)
-# 
-# files = file.path(kallisto_dir, working_metadata$sample, "abundance.h5")
-# cat(blue('files'), fill=TRUE)
-# print(files)
-# 
-# txi = tximport(files, type="kallisto", tx2gene=t2g, ignoreTxVersion=TRUE)
-# 
-# dds = DESeqDataSetFromTximport(txi, colData=working_metadata, design=~treatment) 
-# dds$treatment = relevel(dds$treatment, ref="control")
-# 
-# keep = rowMaxs(counts(dds)) >= threshold
-# dds = dds[keep, ]
-# 
-# dds = DESeq(dds, test="LRT", reduced=~1)
-# 
-# res = results(dds, parallel=TRUE) 
-# filt1 = res[which(res$pvalue < 0.05), ]
-# filt2 = filt1[which(filt1$padj < 0.1), ]
-# cat(blue(paste('DEGs found for B0 to B1 transition:', dim(filt2)[1], sep=' ')), fill=TRUE)
-# write.table(filt3, file=paste(results_dir, '/B0_B1_transition.tsv', sep=''), quote=FALSE, sep='\t')
-
-#
-# 3.3. call significance on A0 --> B0
+# 3.2. call significance on A0 --> B0 [siMITF vs control]
 #
 rules = metadata$genotype != 'wt' & metadata$treatment == 'control'
 working_metadata = metadata[rules, ]
@@ -128,9 +103,29 @@ cat(blue(paste('DEGs found for A0 to B0 transition:', dim(filt2)[1], sep=' ')), 
 write.table(filt2, file=paste(results_dir, '/A0_B0_transition.tsv', sep=''), quote=FALSE, sep='\t')
 
 #
-# 3.3. call significance on A0 --> B1
+# 3.3. call significance on A0 --> B1 [IFN in siMITF background vs control]
 #
-rules = metadata$genotype != 'wt' & metadata$treatment == 'control'
+rules = (metadata$genotype == 'control' & metadata$treatment == 'control') | (metadata$genotype == 'ko' & metadata$treatment == 'ifn')
 working_metadata = metadata[rules, ]
 View(working_metadata)
+
+files = file.path(kallisto_dir, working_metadata$sample, "abundance.h5")
+cat(blue('files'), fill=TRUE)
+print(files)
+
+txi = tximport(files, type="kallisto", tx2gene=t2g, ignoreTxVersion=TRUE)
+
+dds = DESeqDataSetFromTximport(txi, colData=working_metadata, design=~genotype) 
+dds$treatment = relevel(dds$genotype, ref="control")
+
+keep = rowMaxs(counts(dds)) >= threshold
+dds = dds[keep, ]
+
+dds = DESeq(dds, test="LRT", reduced=~1)
+
+res = results(dds, parallel=TRUE) 
+filt1 = res[which(res$pvalue < 0.05), ]
+filt2 = filt1[which(filt1$padj < 0.1), ]
+cat(blue(paste('DEGs found for A0 to B1 transition:', dim(filt2)[1], sep=' ')), fill=TRUE)
+write.table(filt2, file=paste(results_dir, '/A0_B1_transition.tsv', sep=''), quote=FALSE, sep='\t')
 
